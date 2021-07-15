@@ -1,0 +1,63 @@
+body
+		{
+		  background-color: grey;
+		}
+
+a:link, a:visited
+		{
+		  background-color: yellow;
+   		  color:black;
+		  text-decoration: none;
+		  padding: 16px;
+		  text-align:center;
+		  display: inline-block;
+		  font-family: Arial;
+		}		
+
+
+a:hover
+		{
+		  color:green;
+		  background-color: lightblue;
+		  text-decoration: underline;
+		}
+
+a:active
+		{
+				color: green;
+				background-color: white;
+				text-decoration: underline;
+		}
+
+table, tr, td, th
+	{
+		border: 1px solid black;
+		border-collapse: collapse;
+		padding: 20px;
+		width: bvg 0%;
+
+	}
+
+tr:nth-child(even)
+	{
+		background-color: #a8e6cf;
+	}
+
+tr:nth-child(odd)
+	{
+		background-color: #dcedc1;
+	}
+th
+	{
+		background-color: #ff8b94;
+	}
+
+tr:hover
+	{
+		background-color: #ffd3b6;
+	}
+
+p
+	{
+		font-family: 'Great Vibes', cursive;
+	}
